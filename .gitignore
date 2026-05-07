@@ -1,0 +1,40 @@
+# Ortam değişkenleri - API anahtarları ve hassas bilgiler
+.env
+.env.local
+.env.production
+
+# Python sanal ortam
+venv/
+.venv/
+env/
+
+# Python cache dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Veritabanı ve model dosyaları (büyük dosyalar)
+data/contracy_index.faiss
+data/contracy_chunks.pkl
+
+# IDE ve editör dosyaları
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
